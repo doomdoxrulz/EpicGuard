@@ -2,7 +2,7 @@ dependencies {
     implementation(project(":core"))
 
     // TODO: Download these on runtime.
-    implementation("mysql:mysql-connector-java:8.0.28")
+    implementation("mysql:mysql-connector-java:8.0.32")
     implementation("org.xerial:sqlite-jdbc:3.36.0.3")
 
     compileOnly("com.velocitypowered:velocity-api:3.1.0")
